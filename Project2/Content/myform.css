@@ -1,0 +1,163 @@
+﻿
+
+.anestis-center {
+    margin: auto;
+}
+
+
+.myheader h1 {
+    font-size: 51px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: #fff;
+    font-weight: 600;
+    margin: 70px 0px;
+}
+
+.myform-main h2 {
+    color: #fff;
+    font-size: 29px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.myform-main {
+   
+    max-width: 500px;
+    min-width: 200px;
+    margin: 0 auto;
+    margin-top: 4rem;
+    background: rgba(0, 0, 0, 0.34);
+    padding: 42px 35px;
+    text-align: center;
+}
+
+
+
+
+input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 15px 0px 15px 42px;
+    border: 1px solid #fff;
+    outline: none;
+    font-size: 14px;
+    color: #fff;
+    
+    font-family: 'Roboto', sans-serif;
+    align-self: center;
+}
+
+input[type="UserName"] {
+    background: url("../Content/images/user1.png") no-repeat 3px 8px;
+    background-size: 40px;
+    align-self: center;
+    width: 100%;
+    padding: 15px 0px 15px 42px;
+    border: 1px solid #fff;
+    outline: none;
+    font-size: 14px;
+    color: #fff;
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+input[type="email"] {
+    background: url("../Content/images/mail.png") no-repeat 10px 11px;
+    background-size: 24px;
+}
+
+input[type="password"] {
+    background: url("../Content/images/pass.png") no-repeat 8px 9px;
+    background-size: 28px;
+}
+
+.myform-main span {
+    font-size: 16px;
+    color: #fff;
+    float: left;
+    width: 100%;
+    margin-top: 8px;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 3px;
+    text-align: left;
+}
+
+.myform-main h6 {
+    font-size: 16px;
+    float: right;
+    width: 37%;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-top: 8px;
+    text-decoration: underline;
+}
+
+.myform-main a {
+    color: #fff;
+    transition: 0.5s all;
+}
+
+    .myform-main a:hover {
+        color: rgba(208, 95, 216, 0.9);
+        transition: 0.5s all;
+    }
+
+input[type="submit"] {
+    padding: 12px 38px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: #003b64;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    margin: 45px auto 31px;
+    transition: 0.5s all;
+}
+
+    input[type="submit"]:hover {
+        background: rgba(213, 38, 133, 0.64);
+        transition: 0.5s all;
+    }
+
+.myform-main p a {
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #fff;
+    padding: 10px;
+}
+
+.myform-main p {
+    font-size: 17px;
+    color: #fff;
+}
+
+
+
+
+
+.validation-summary-errors.text-danger {
+    font-size: 19px;
+    text-align: center !important;
+}
+
+.col-md-10.anestis {
+    padding: 5px;
+    padding-left: 5px;
+    margin: auto;
+}
+
+
+
+btn.btn-default.anestis {
+    position: relative;
+}
+
+
+btn.btn-primary.anestis{
+    width:50%;
+}
